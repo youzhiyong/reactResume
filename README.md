@@ -6,8 +6,7 @@
 ## 使用方法
 
 ``` bash
-git clone git@github.com:therefor/dynamic-resume.git
-cd dynamic-resume
+git clone https://github.com/youzhiyong/reactResume.git
 npm install
 npm start
 ```
