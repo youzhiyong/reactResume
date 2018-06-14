@@ -2,7 +2,7 @@
   "name": "dynamic-resume",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://therefor.github.io/dynamic-resume/",
+  "homepage": "https://youzhiyong.top/resume/",
   "dependencies": {
     "marked": "^0.3.6",
     "prismjs": "^1.6.0",
@@ -51,7 +51,7 @@
   },
   "scripts": {
     "start": "node scripts/start.js",
-    "build": "node scripts/build.js",
+    "build": "node scripts/build.js --mode production",
     "test": "node scripts/test.js --env=jsdom",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
